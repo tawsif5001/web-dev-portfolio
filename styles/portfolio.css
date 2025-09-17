@@ -10,12 +10,20 @@
 }
 
 /* shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+
+}
 .text-primary{
     color: #FD6E0A;
 }
 
 .dark-02{
     color: #474747;
+}
+
+.dark-03{
+    color: #757575;
 }
 
 
@@ -29,10 +37,19 @@
     border: none;
 }
 
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.section-description{
+    font-size: 16px;
+}
 /* header styles */
 .header{
     background-image: url('../assests/images/developer.png'), url('../assests/images/header_bg.png');
-    background-size: 100px 600px, 700px 400px  ;
+    background-size: 90px 630px, 700px 400px  ;
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
@@ -91,4 +108,41 @@ nav li a{
 
 .banner-profile-pic{
     width: 500px;
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+   
+
+}
+
+.section-border{
+    border: 1px solid black;
+    padding: 50px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-between ;
+   
+}
+
+.item-title{
+    color: #757575;
+    font-size: 20px;
+}
+
+.item-description{
+   font-weight: 400;
+    font-size: 20px;
 }
